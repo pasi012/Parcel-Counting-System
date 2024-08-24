@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "948842718018",
+    "project_id": "parcel-counting-system",
+    "storage_bucket": "parcel-counting-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948842718018:android:acd3c385253faa954d5edb",
+        "android_client_info": {
+          "package_name": "com.example.parcelcountingsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR89IabvGmy7B5Jhpq2NU4C3Axem2gxoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

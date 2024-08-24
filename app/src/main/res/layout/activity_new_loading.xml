@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".home.new_loading.NewLoadingActivity">
+
+    <!-- Title -->
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/title"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Loading"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle Number"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/editTextVehicleNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Vehicle Number"
+                android:padding="12dp"
+                android:background="@drawable/edittext_background"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loading ID"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/editTextLoadingId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Loading ID"
+                android:padding="12dp"
+                android:background="@drawable/edittext_background"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Target Quantity"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/editTextTargetQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Target Quantity"
+                android:padding="12dp"
+                android:background="@drawable/edittext_background"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of Counting Officer"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/editTextCountingOfficer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Counting Officer's Name"
+                android:padding="12dp"
+                android:background="@drawable/edittext_background"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="12dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#1E88E5"
+                android:textColor="@color/white"
+                android:text="Start Counting"
+                android:elevation="4dp"
+                android:layout_marginBottom="24dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
